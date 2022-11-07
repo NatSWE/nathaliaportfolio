@@ -236,7 +236,8 @@ https://www.youtube.com/watch?v=Ll7PA0dtpW0 [used as a refrence to create a PDF 
 
 https://dash.generalassemb.ly/projects/build-your-own-blog-theme [used as a refrence to remind me]
 
-https://www.w3schools.com/css/css3_images.asp
+
+
 
 
 
