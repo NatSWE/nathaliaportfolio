@@ -7,28 +7,57 @@
     <title>Nathalia Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <title>Hamburger Menu</title>
+    <style>
+      h1:hover {
+         box-shadow: 0 0 9px 1px rgba(0, 140, 186, 0.5);
+      }
+      h2 {
+        font-size: 50px;
+        text-align: center;
+        border-radius: 30px;
+      }
+      .reach {
+        max-width: 190px;
+        width: 50%;
+        height: 50px;
+        margin: 50px auto 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-family: bebas-neue-pro,sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        border-radius: 8px;
+        background-color: #000;
+        color: #fff;
+        font-size: 1.6rem;
+    
+      }
+      
+    </style>
 </head>
 <body>
-   
+
     <div class="container">
        <nav class="navbar">
         <div class="Hamburger-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
         </div>
         <ul class="nav-list">
             <li class="nav-item">
-              <a href="about.html">ABOUT ME</a><br>
+              <a href="about.html" class="nav-link">ABOUT ME</a>
             </li>
               
             <li class="nav-item">
-              <a href="projects.html">PROJECTS</a><br>
+              <a href="projects.html" class="nav-link">PROJECTS</a>
             </li>
             
             <li class="nav-item">
-              <a href="#" class="nav-link">RESUME</a><br>
+              <a href="resume.html" class="nav-link">RESUME</a>
             </li>
 
 
@@ -41,18 +70,47 @@
      
      
      <p>
-        <h1> NATHALIA <a href="about.html" target="_blank"><div></a></h1>
+     <br>
+     <br> 
+        <h1> <a style="text-decoration:none" href="about.html" <br> NATHALIA </br> DHAITI </a></h1>
            
-        <h1> DHAITI <a href="about.html"></a>
+        <h2> <a class="soft-link" style="text-decoration:none" href="projects.html" >Software Engineer</a></h2>
           <div>
 
-          </h1>
+        
         </p>
-     <footer>
-        Contact ME <br/>
 
-        Let's Connect ON <a class="navigation" href="">LINKEDIN</a>
+     <footer>
+
+      <h3 id="me"> 
+
+        
+
+        <br>
+
+      <!-- Modal Section-->
+
+      <a class="reach" href="#" id="button" class="button"> Contact me</a>
+      <div class="bg-modal">
+         <div class="modal-content">
+         <div class="close">+</div>
+         <img src="https://julieth.tech/img/header-img2.png" width="150" 
+          height="100"/>
+         
+      <form action="">
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="E-Mail">
+        <input type="text" placeholder="Message">
+        <a href="" class="button">Submit</a>
+
+      </form>
+         </div>
+      </div>
+      
+     </h3> 
+     
      </footer>
+     <script src="app.js"></script>    
 </body>
 </html>
 

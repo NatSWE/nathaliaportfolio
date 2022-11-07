@@ -14,8 +14,16 @@ along the process and helping as you go. Show us what you've got!
 
 ## Purpose 🧐
 What do you want people to find when they Google you?
+
+I wanted people to see I'm a software engineer focus on font end dev 
+
 What do you want someone's first impression of you to be?
+
+I'm a deatailed oriented 
+
 Your portfolio is the portal to your professional online presence.
+
+
 It consolidates the content you've created on multiple platforms and presents
 it in digest form, making it easier for future employers to learn more about you.
 
@@ -96,10 +104,18 @@ You can also host your github pages with your own domain name. [Here is a walkth
 ### Think about...
 - **Creativity**  
   Did you add a personal spin or creative element into your project submission? Did you deliver something of value to the end user?
+
+  I created a crisp clear and clean image.
 - **Code Quality**  
   Did you follow code style guidance and best practices covered in class, such as spacing, indentation, modularity, and semantic naming? Did you comment your code as your instructors have in class?
+
+  Yes, I did.
+
 - **Problem Solving**  
   Are you able to defend why you implemented your solution in a certain way? Can you demonstrate that you thought through alternative implementations?
+
+
+  Yes, I can.
 
 
 ### Project Submission
@@ -208,4 +224,20 @@ yourself to complete this project on your own.
 - **[MDN Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**
 - **[GitHub Pages](https://pages.github.com)**
 - **[Trello](trello.com)**
+
+
+Sources & refrence
+
+https://www.youtube.com/watch?v=BN6fH1nRDxA&t=867s  [used as a refrence to create a menue Menu with HTML, CSS]
+
+https://www.youtube.com/watch?v=lkDrG7G77Fg&t=5s [used as a refrence to create a Sub Pages in HTML]
+
+https://www.youtube.com/watch?v=Ll7PA0dtpW0 [used as a refrence to create a PDF file]
+
+https://dash.generalassemb.ly/projects/build-your-own-blog-theme [used as a refrence to remind me]
+
+https://www.w3schools.com/css/css3_images.asp
+
+
+
 >>>>>>> db57813 (Nat project prot)
