@@ -110,12 +110,38 @@ input {
     cursor: pointer;
     
 }
-@media (max-width: 500px) {
-    body {
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        height: 50%
+@media only screen and (min-width: 768px) {
+#featured li{
+    width: 329160%;
+    height: 9000%;
+}
+}
+
+@media only screen and (min-width: 480px) {
+    #featured li{
+        width: 92%;
+        height: 5000%;
+}
+}
+
+@media only screen and (max-width: 479px) {
+    h1 {
+      font-size: 60px;
+      width: 92%;
+      height: 50%;
+      margin-top:95px;
+    }
+}
+
+.container {
+    flex-flow: column wrap;
+  }
+
+  @media {
+    article {
+      font-size: 60px;
+      width: 76%;
+      height: 90%;
+      margin-top:885px;
     }
 }
