@@ -3,6 +3,7 @@
 body {
 
     background-image: url('images/whiten.png');
+    text-align: center;
 
 }
 
@@ -110,19 +111,50 @@ input {
     cursor: pointer;
     
 }
-@media only screen and (min-width: 768px) {
-#featured li{
-    width: 329160%;
-    height: 9000%;
-}
+
+//aboutme
+
+#gty{
+    text-align: center;
+    font-size: 60px;
 }
 
-@media only screen and (min-width: 480px) {
-    #featured li{
-        width: 92%;
-        height: 5000%;
-}
-}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+//index
+
+h1:hover {
+    box-shadow: 0 0 9px 1px rgba(0, 140, 186, 0.5);
+ }
+ h2 {
+   font-size: 50px;
+   text-align: center;
+   border-radius: 30px;
+ }
+ .reach {
+   max-width: 190px;
+   width: 50%;
+   height: 50px;
+   margin: 50px auto 20px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   font-family: bebas-neue-pro,sans-serif;
+   font-weight: 500;
+   font-style: normal;
+   border-radius: 8px;
+   background-color: #000;
+   color: #fff;
+   font-size: 1.6rem;
+
+ }
 
 @media only screen and (max-width: 479px) {
     h1 {
@@ -137,11 +169,18 @@ input {
     flex-flow: column wrap;
   }
 
-  @media {
-    article {
-      font-size: 60px;
-      width: 76%;
-      height: 90%;
-      margin-top:885px;
+  
+ @media (max-width: 600px) {
+    #soft {
+      width: 86px;
+      height: 200px;
+      margin-top: -878px;
+    }
+}  
+
+@media (max-width: 1050px) {
+    img {
+        display: none;
     }
 }
+
