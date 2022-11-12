@@ -153,11 +153,7 @@ ul {
 
 //projects
 
-h8 {
-    text-align: center;
-    font-size: 60px;
-    margin-top: 0px;
-  }
+
 
 //index
 
@@ -212,15 +208,16 @@ h8 {
     }
 }  
 
-@media (max-width: 1050px) {
+@media (max-width: 300px) {
     img {
+        display: flex;
+    }
+}
+
+@media (max-width: 800px) {
+    #left {
         display: none;
     }
 }
 
 
-h3 {
-    text-align: center;
-    font-size: 60px;
-    margin-top: 0px;
-  }
