@@ -27,7 +27,7 @@ function updateName() {
 }
 
 
-///---------- Third javascript interaction to collect name -----------//
+///---------- Third javascript interaction Countdown -----------//
 
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 23, 2023 15:37:25").getTime();
